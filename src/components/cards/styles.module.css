@@ -1,0 +1,26 @@
+.Card {
+  padding: 3rem 1rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.Card:hover {
+  transform: scale(1.1);
+}
+.Card p {
+  font-size: 18px;
+  font-weight: 600;
+  color: #817f7f;
+}
+.Rating {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
