@@ -3,6 +3,7 @@
   justify-content: space-around;
   gap: 2rem;
   cursor: pointer;
+  flex-wrap: wrap;
 }
 .form {
   display: flex;

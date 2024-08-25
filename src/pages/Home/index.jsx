@@ -42,7 +42,7 @@ const Home = () => {
     setOccupation(""); // Clear the occupation state
   };
 
-
+  
   return (
     <>
       <form className={styles.form}>
